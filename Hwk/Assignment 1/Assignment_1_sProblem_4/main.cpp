@@ -18,7 +18,7 @@ short GRAVITY=-32; //Acceleration in ft/s/s
 //Execution Begins Here
 int main(int argc, char** argv) {
     //Declare Variables 
-   unsigned short time;
+   long double time;
 //Gather time input
     cout<<"How long will the object fall in seconds? (65,534s Max)"<<endl;
     cin>>time;
