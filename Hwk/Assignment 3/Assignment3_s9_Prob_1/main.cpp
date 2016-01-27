@@ -1,25 +1,18 @@
-
 /* 
  * File:   main.cpp
  * Author: Christopher Garcia
- *
- * Created on January 25, 2016, 4:56 AM
- * Function:
+ * Created on January 26, 2016, 5:33 PM
+ * Function:Rock, Paper, Scissors Game
  */
 
-//System Libraries
 #include <iostream>
 using namespace std;
 
-//Global Constants
-
-//Function Prototypes
-
-//Execution Begins Here
-
 int main(int argc, char** argv) {
-    //Declare Variables 
 
+    
+    
+    
     return 0;
 }
 
