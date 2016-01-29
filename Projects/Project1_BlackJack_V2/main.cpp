@@ -29,12 +29,12 @@ int main(int argc, char** argv) {
 void Deck(int Card){
     Card=(rand()%14)+1;
     if(Card>10)
-        (Card>13?cout<<'A':
-        (Card>12?cout<<'K':
-        (Card>11?cout<<'Q':
-                 cout<<'J')));
+        (Card>13?cout<<" A ":
+        (Card>12?cout<<" K ":
+        (Card>11?cout<<" Q ":
+                 cout<<" J ")));
     else
-        cout<<Card;
+        cout<<" "<<Card<<" ";
                 
         
 return;
@@ -42,10 +42,10 @@ return;
 void Dealing(){
     int Card;
     cout<<"Player 1 | Dealer"<<endl;
-    cout<<"   ";
-    Deck(Card);cout<<"         ";
+    cout<<"  ";
+    Deck(Card);cout<<"        ";
     Deck(Card);cout<<endl;
-    cout<<"   ";
-    Deck(Card);cout<<"         ";
+    cout<<"  ";
+    Deck(Card);cout<<"        ";
     Deck(Card);cout<<endl;
 }
