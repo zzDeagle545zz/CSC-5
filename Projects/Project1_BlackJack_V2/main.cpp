@@ -14,15 +14,34 @@ using namespace std;
 
 //Function Prototypes
 void Deck(int Card);
-void Dealing();
+void GameSrt();
+
 //Execution Begins Here
 int main(int argc, char** argv) {
 //Declare Variables 
     srand(static_cast<int>(time(0)));
-    unsigned short Card;
-    Dealing();
-    
-    
+    unsigned short Card,menu;
+    int wallet;
+//introduction to the Black Jack Game game
+    cout<<"This is Christopher Garcia's C++, No GUI Black Jack Game!"<<endl;
+//Menu for the game
+    cout<<"Press 1 to start playing the game!"<<endl;
+    cout<<"Press 2 for the rules and objective of Black Jack!"<<endl;
+    cout<<"Press 3 for options."<<endl;
+    cout<<"Press 4 for instructions and tips."<<endl;
+    do{
+        switch(menu){
+            case 1:
+                GameSrt();
+                break;
+            case 2:
+
+            case 3:
+
+            default:;
+        } 
+    }
+    while();
     return 0;
 }
 //Deck Generator
@@ -48,4 +67,7 @@ void Dealing(){
     cout<<"  ";
     Deck(Card);cout<<"        ";
     Deck(Card);cout<<endl;
+}
+void GameSrt(){
+    
 }
