@@ -1,0 +1,5 @@
+The rules of the game are similar to Black Jack but with one twist.
+The Ace has a solid state, either 1 or 11. The player does not choose
+this. The goal of the game is beat the dealer and get the closest number
+21, without going over. Getting a "Black Jack" pays out 1.5 of your bet!
+GOOD LUCK!
