@@ -22,8 +22,8 @@ int main(int argc, char** argv) {
     srand(static_cast<int>(time(0)));
     unsigned short Card,menu;
     int wallet;
-//introduction to the Black Jack Game game
-    cout<<"This is Christopher Garcia's C++, No GUI Black Jack Game!"<<endl;
+//Introduction to the Black Jack Game game
+    cout<<"This is Christopher Garcia's C++ Black Jack Game!"<<endl;
 //Menu for the game
     cout<<"Press 1 to start playing the game!"<<endl;
     cout<<"Press 2 for the rules and objective of Black Jack!"<<endl;
@@ -41,7 +41,7 @@ int main(int argc, char** argv) {
             default:;
         } 
     }
-    while();
+    while;
     return 0;
 }
 //Deck Generator
@@ -58,6 +58,7 @@ void Deck(int Card){
         
 return;
 }
+//Dealing the First set of cards
 void Dealing(){
     int Card;
     cout<<"Player 1 | Dealer"<<endl;
@@ -68,6 +69,7 @@ void Dealing(){
     Deck(Card);cout<<"        ";
     Deck(Card);cout<<endl;
 }
+//The main engine the game runs on
 void GameSrt(){
     
 }
