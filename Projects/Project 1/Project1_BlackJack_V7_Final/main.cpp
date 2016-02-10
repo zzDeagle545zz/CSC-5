@@ -24,8 +24,8 @@ const short PCNVRT=100;//Conversion Factor for a percent
     bool isWnnr(int&,int&,int&,int&,int&);
     void Bet(int&,int&);
     void Rules();
-    int Optns(int mMoney);
-    int Wallet(int mMoney);
+    int Optns(int);
+    int Wallet(int);
 //Execution Begins Here
 int main(int argc, char** argv) {
 //Declare Variables 
